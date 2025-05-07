@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sunayana Gaikwad | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #fefefe, #eaf6ff);
+      color: #333;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      text-align: center;
+      animation: fadeInDown 1s ease-out;
+      padding-bottom: 2rem;
+    }
+
+    .hero-image {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      display: block;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    .hero-content {
+      padding: 1.5rem;
+      animation: fadeInUp 1s ease-out;
+    }
+
+    .hero-content h1 {
+      font-size: 2.8rem;
+      margin: 0.5rem 0 0;
+    }
+
+    .hero-content p {
+      font-size: 1.3rem;
+      margin-top: 0.5rem;
+    }
+
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      border-bottom: 3px solid #6c63ff;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
+      font-size: 1.8rem;
+      animation: fadeInUp 1s ease forwards;
+    }
+
+    .block {
+      background: linear-gradient(120deg, #ffffff, #e3f2fd);
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      animation: fadeInUp 1s ease forwards;
+    }
+
+    .block:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #2c2c2c;
+      color: #fff;
+      font-size: 0.9rem;
+    }
+
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Full-width header image -->
+    <img src="https://sunayana-portfolio2025.s3.ap-south-1.amazonaws.com/profile_pic.png" alt="Sunayana Gaikwad" class="hero-image" />
+
+    <!-- Hero text below the image -->
+    <div class="hero-content">
+      <h1>Sunayana Gaikwad</h1>
+      <p>DevOps Enthusiast | Cloud & Automation</p>
+    </div>
+  </header>
+
+  <section>
+    <h2>👋 About Me</h2>
+    <div class="block">
+      <p>Hi, I’m <strong>Sunayana Gaikwad</strong>, a driven DevOps enthusiast passionate about automation and cloud-native development. Over the last year, I’ve immersed myself in hands-on training where I explored real-world challenges—working on streamlining deployments, managing scalable systems, and applying DevOps practices that improve efficiency and reliability.</p>
+      <p>From leading technical teams to presenting seminars and volunteering in training sessions, I’ve actively contributed to collaborative learning environments. I thrive in roles that demand adaptability, innovation, and a continuous learning mindset—always ready to tackle complex problems with creative solutions.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>🚀 Projects</h2>
+
+    <div class="block">
+      <h3>1. Scalable Web App Deployment on AWS EKS</h3>
+      <p>Designed and deployed a containerized Flask application with MySQL using Kubernetes on AWS EKS, ensuring high availability and seamless scalability.</p>
+    </div>
+
+    <div class="block">
+      <h3>2. Cloud Cost Optimization through Automation</h3>
+      <p>Developed a script-based automation system to identify and remove unused EBS snapshots, reducing storage waste and cutting operational costs.</p>
+    </div>
+
+    <div class="block">
+      <h3>3. Microservices-based E-Commerce Platform</h3>
+      <p>Built a modular e-commerce platform using a microservices architecture, allowing independent scaling and easier maintenance of core features.</p>
+    </div>
+
+    <div class="block">
+      <h3>4. Infrastructure Automation Using IaC</h3>
+      <p>Provisioned complete cloud infrastructure using declarative configurations, enabling consistent and version-controlled environment setup.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Sunayana Gaikwad. All rights reserved.
+  </footer>
+</body>
+</html>
